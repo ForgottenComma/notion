@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <body>
+    <p id="p1"></p>
     <script>
 
     var today = new Date();
@@ -8,5 +9,6 @@
     var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
 
     </script>
+    document.getElementById("p1").innerHTML = date;
 </body>
 </html>

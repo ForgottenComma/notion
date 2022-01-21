@@ -1,14 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <body>
-    <p id="p1"></p>
+    <p>Current Date and Time is <span id='date-time'></span>.</p>
     <script>
-
-    var today = new Date();
-
-    var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
-
-    </script>
-    document.getElementById("p1").innerHTML = date;
+    var dt = new Date();
+    document.getElementById('date-time').innerHTML=dt;
+</script>
 </body>
 </html>
